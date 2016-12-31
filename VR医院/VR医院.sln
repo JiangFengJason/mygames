@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{137330B2-07A8-F34F-420A-2B5616150C19}") = "VR医院", "Assembly-CSharp-firstpass.csproj", "{26CE691E-7E18-28B4-FFD0-637FDC0C1413}"
+EndProject
+Project("{137330B2-07A8-F34F-420A-2B5616150C19}") = "VR医院", "Assembly-CSharp.csproj", "{414F4ED1-72E7-336E-090A-535274CEA1EC}"
+EndProject
+Project("{137330B2-07A8-F34F-420A-2B5616150C19}") = "VR医院", "Assembly-CSharp-Editor.csproj", "{EC017A15-1A38-41DC-9649-431BC68C8BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26CE691E-7E18-28B4-FFD0-637FDC0C1413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CE691E-7E18-28B4-FFD0-637FDC0C1413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CE691E-7E18-28B4-FFD0-637FDC0C1413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CE691E-7E18-28B4-FFD0-637FDC0C1413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414F4ED1-72E7-336E-090A-535274CEA1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414F4ED1-72E7-336E-090A-535274CEA1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414F4ED1-72E7-336E-090A-535274CEA1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414F4ED1-72E7-336E-090A-535274CEA1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC017A15-1A38-41DC-9649-431BC68C8BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC017A15-1A38-41DC-9649-431BC68C8BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC017A15-1A38-41DC-9649-431BC68C8BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC017A15-1A38-41DC-9649-431BC68C8BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
