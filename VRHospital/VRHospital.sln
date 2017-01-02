@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{13DD37EA-15A5-6E06-5435-98CD642EF5D3}") = "VRHospital", "Assembly-CSharp.csproj", "{D8EC07F0-A54F-B4BB-B16C-C1E5EE8E2B8A}"
+EndProject
+Project("{13DD37EA-15A5-6E06-5435-98CD642EF5D3}") = "VRHospital", "Assembly-CSharp-Editor.csproj", "{BDB248F2-4815-56C3-2AF8-F5026430266A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8EC07F0-A54F-B4BB-B16C-C1E5EE8E2B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC07F0-A54F-B4BB-B16C-C1E5EE8E2B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC07F0-A54F-B4BB-B16C-C1E5EE8E2B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC07F0-A54F-B4BB-B16C-C1E5EE8E2B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB248F2-4815-56C3-2AF8-F5026430266A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB248F2-4815-56C3-2AF8-F5026430266A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB248F2-4815-56C3-2AF8-F5026430266A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB248F2-4815-56C3-2AF8-F5026430266A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
