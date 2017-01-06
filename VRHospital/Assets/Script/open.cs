@@ -12,11 +12,11 @@ public class open : MonoBehaviour {
 	void Start () {
         rotationSpeed = 0.5f;
         obj = GetComponent<SteamVR_ControllerManager>().right;
+        n = obj.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        n = obj.transform.position;
         distance = Vector3.Distance(n, transform.position);
         if (Vector3.Distance(n, transform.position) <= 10f)
         {
