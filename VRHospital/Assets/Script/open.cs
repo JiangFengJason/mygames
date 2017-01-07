@@ -3,27 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class open : MonoBehaviour {
-    public Transform Head;
-    public float rotationSpeed;
-    private Vector3 n;
-    private GameObject obj;
-    public float distance;
+    private float rotationSpeed;
+    public GameObject target;
+    private float distance;
 	// Use this for initialization
 	void Start () {
         rotationSpeed = 0.5f;
-        obj = GetComponent<SteamVR_ControllerManager>().right;
-        n = obj.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        distance = Vector3.Distance(n, transform.position);
-        if (Vector3.Distance(n, transform.position) <= 10f)
+        distance = Vector3.Distance(target.transform.position, transform.position);
+        if (distance <= 0.2f && transform.localEulerAngles.y >= 0f && transform.localEulerAngles.y <= 120.0f)
         {
-            if (transform.localEulerAngles.y >= -91f && transform.localEulerAngles.y <= 112.0f)
-                transform.Rotate(new Vector3(0, rotationSpeed, 0));
+            transform.Rotate(new Vector3(0, rotationSpeed, 0));
         }
-        else if (transform.localEulerAngles.y <= 111.0f && transform.localEulerAngles.y >= -90.00f)
-            transform.Rotate(new Vector3(0, -rotationSpeed, 0));
 	}
 }

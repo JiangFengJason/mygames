@@ -8,7 +8,7 @@ public class showdetail : MonoBehaviour {
     public GameObject target;
     public SteamVR_Controller.Device device;
     private bool triggerpress;
-    public float distance;
+    private float distance;
 	// Use this for initialization
 	void Start () {
         device = SteamVR_Controller.Input((int)GetComponent<SteamVR_TrackedObject>().index);
